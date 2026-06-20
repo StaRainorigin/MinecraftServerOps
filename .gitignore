@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+*.whl
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# MC-SRE 运行时产物
+.sandbox/
+.cache/
+server_pool/
+.snapshots/
+
+# 数据库 / 二进制缓存
+*.db
+*.sqlite
+*.sqlite3
+chroma_data/
+
+# 环境配置（含 API Key，不入版本控制）
+.env
+.env.local
+.env.*.local
+
+# 参考项目（第三方开源仓库克隆，体积过大）
+references/
+
+# 整合包等大文件
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# 垃圾文件（pip 残留、Windows nul 等）
+=*
+nul
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 日志
+*.log
