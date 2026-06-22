@@ -45,6 +45,7 @@ nul
 # IDE
 .idea/
 .vscode/
+.zcode/
 *.swp
 *.swo
 *~
